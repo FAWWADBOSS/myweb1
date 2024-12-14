@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fawwad Faiyaz Khanche - Portfolio</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            color: white;
+            overflow-x: hidden;
+            background-color: black;
+        }
+
+        /* Video Background */
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Navbar */
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 50px;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 10;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.2rem;
+            margin: 0 20px;
+            transition: color 0.3s;
+        }
+
+        .navbar a:hover {
+            color: #f0e68c;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: #f0e68c;
+            margin-top: 10px;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        a {
+            color: #f0e68c;
+            text-decoration: none;
+        }
+
+        /* Sections */
+        section {
+            padding: 80px 50px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.8); /* Semi-transparent background for readability */
+            z-index: 1;
+            position: relative;
+        }
+
+        ul {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="video-background">
+        <video autoplay loop muted>
+            <source src="C:\Users\Fawwad\Downloads\Black Neon Are You Ready Video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Fawwad Faiyaz Khanche</h1>
+        <h2>Ux/Ui Designer | Web Designer | BCA Student</h2>
+        <p>Contact: <a href="mailto:khanchefawwad3@gmail.com">khanchefawwad3@gmail.com</a> | 7768018592</p>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Fawwad, a passionate web designer and BCA student. I love creating interactive, modern websites with a user-centric approach.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Designer</li>
+            <li>UX/UI Designer</li>
+            <li>HTML & CSS</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Project 1: Lampung Website</li>
+            <li>Project 2: Portfolio Website</li>
+            <li>Project 3: Color Visualizer App Prototype</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:khanchefawwad3@gmail.com">khanchefawwad3@gmail.com</a></p>
+        <p>Phone: 7768018592</p>
+    </section>
+
+</body>
+</html>
